@@ -1,11 +1,5 @@
 package neoStoxBase;
 
-import java.io.File;
-import java.io.IOException;
-
-import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
@@ -17,7 +11,7 @@ public class Base
 
 	public void lanuchBrowser() 
 	  {
-		  System.setProperty("webdriver.chrome.driver","C:\\selenium folder\\chromedriver_win32\\chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver","C:\\selenium folder\\chromedriver\\chromedriver.exe");
 	      
 	      driver= new ChromeDriver();
 	      
